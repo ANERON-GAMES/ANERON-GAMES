@@ -13,6 +13,14 @@ The production tree stays private. These repositories are the parts worth reusin
 - [job-lease](https://github.com/ANERON-GAMES/job-lease) accepts a job result only from the plane that leased it.
 - [power-confirm](https://github.com/ANERON-GAMES/power-confirm) treats a device reading as truth, not the command that was sent.
 - [edge-presence](https://github.com/ANERON-GAMES/edge-presence) folds heartbeats from several paths into one presence.
+- [path-grade](https://github.com/ANERON-GAMES/path-grade) grades a reachability sample so a slow origin is not blamed on the ISP.
+- [chat-pick](https://github.com/ANERON-GAMES/chat-pick) keeps the duplicate chat that was actually in use and merges message pages by id.
+- [peer-hold](https://github.com/ANERON-GAMES/peer-hold) keeps realtime room peers honest across reconnects and silent drops.
+- [chunk-reap](https://github.com/ANERON-GAMES/chunk-reap) plans orphan upload-chunk deletes behind a grace window.
+- [route-hold](https://github.com/ANERON-GAMES/route-hold) holds ordinary pages during maintenance and lets health, API, and assets through.
+- [circuit-trip](https://github.com/ANERON-GAMES/circuit-trip) decides closed, open, or half-open from failures and probe successes.
+- [batch-flush](https://github.com/ANERON-GAMES/batch-flush) decides when a batch flushes by count, bytes, age, or idle gap.
+- [cooldown-map](https://github.com/ANERON-GAMES/cooldown-map) tracks per-key cooldowns and regenerating charges.
 
 Each library has tests. None of them call the network.
 
