@@ -21,6 +21,7 @@ The production tree stays private. These repositories are the parts worth reusin
 - [circuit-trip](https://github.com/ANERON-GAMES/circuit-trip) decides closed, open, or half-open from failures and probe successes.
 - [batch-flush](https://github.com/ANERON-GAMES/batch-flush) decides when a batch flushes by count, bytes, age, or idle gap.
 - [cooldown-map](https://github.com/ANERON-GAMES/cooldown-map) tracks per-key cooldowns and regenerating charges.
+- [backoff-plan](https://github.com/ANERON-GAMES/backoff-plan) plans capped exponential backoff with injected jitter and give-up rules.
 
 Each library has tests. None of them call the network.
 
