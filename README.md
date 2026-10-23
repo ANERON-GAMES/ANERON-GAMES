@@ -22,6 +22,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [batch-flush](https://github.com/ANERON-GAMES/batch-flush) decides when a batch flushes by count, bytes, age, or idle gap.
 - [cooldown-map](https://github.com/ANERON-GAMES/cooldown-map) tracks per-key cooldowns and regenerating charges.
 - [backoff-plan](https://github.com/ANERON-GAMES/backoff-plan) plans capped exponential backoff with injected jitter and give-up rules.
+- [rate-window](https://github.com/ANERON-GAMES/rate-window) decides whether one more event for a key fits a sliding time window.
+- [quorum-vote](https://github.com/ANERON-GAMES/quorum-vote) folds health votes from several observers into one verdict that a single observer cannot flip.
+- [version-gate](https://github.com/ANERON-GAMES/version-gate) allows, warns, or refuses a client by its version.
 
 Each library has tests. None of them call the network.
 
