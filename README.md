@@ -25,6 +25,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [rate-window](https://github.com/ANERON-GAMES/rate-window) decides whether one more event for a key fits a sliding time window.
 - [quorum-vote](https://github.com/ANERON-GAMES/quorum-vote) folds health votes from several observers into one verdict that a single observer cannot flip.
 - [version-gate](https://github.com/ANERON-GAMES/version-gate) allows, warns, or refuses a client by its version.
+- [tick-budget](https://github.com/ANERON-GAMES/tick-budget) decides how many fixed-timestep ticks run per frame, with a catch-up cap.
+- [seq-window](https://github.com/ANERON-GAMES/seq-window) accepts new sequence numbers and flags duplicates or too-old ones, with wraparound.
+- [rank-shift](https://github.com/ANERON-GAMES/rank-shift) computes Elo-style rating updates with a configurable K factor.
 
 Each library has tests. None of them call the network.
 
