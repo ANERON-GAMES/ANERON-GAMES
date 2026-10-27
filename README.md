@@ -28,6 +28,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [tick-budget](https://github.com/ANERON-GAMES/tick-budget) decides how many fixed-timestep ticks run per frame, with a catch-up cap.
 - [seq-window](https://github.com/ANERON-GAMES/seq-window) accepts new sequence numbers and flags duplicates or too-old ones, with wraparound.
 - [rank-shift](https://github.com/ANERON-GAMES/rank-shift) computes Elo-style rating updates with a configurable K factor.
+- [snap-lerp](https://github.com/ANERON-GAMES/snap-lerp) returns the bracketing snapshot pair and blend factor for a delayed render time.
+- [loot-roll](https://github.com/ANERON-GAMES/loot-roll) rolls weighted loot with a pity counter and an injected random source.
+- [idle-kick](https://github.com/ANERON-GAMES/idle-kick) marks a player active, warned or kicked from last-input times.
 
 Each library has tests. None of them call the network.
 
