@@ -31,6 +31,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [snap-lerp](https://github.com/ANERON-GAMES/snap-lerp) returns the bracketing snapshot pair and blend factor for a delayed render time.
 - [loot-roll](https://github.com/ANERON-GAMES/loot-roll) rolls weighted loot with a pity counter and an injected random source.
 - [idle-kick](https://github.com/ANERON-GAMES/idle-kick) marks a player active, warned or kicked from last-input times.
+- [match-band](https://github.com/ANERON-GAMES/match-band) pairs players within a skill band that widens with wait time, up to a cap.
+- [aoi-grid](https://github.com/ANERON-GAMES/aoi-grid) answers radius queries on a spatial hash grid and reports enter/leave sets.
+- [dead-reckon](https://github.com/ANERON-GAMES/dead-reckon) predicts positions by dead reckoning and corrects with a snap or blend past a threshold.
 
 Each library has tests. None of them call the network.
 
