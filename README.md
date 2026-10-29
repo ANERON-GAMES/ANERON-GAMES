@@ -34,6 +34,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [match-band](https://github.com/ANERON-GAMES/match-band) pairs players within a skill band that widens with wait time, up to a cap.
 - [aoi-grid](https://github.com/ANERON-GAMES/aoi-grid) answers radius queries on a spatial hash grid and reports enter/leave sets.
 - [dead-reckon](https://github.com/ANERON-GAMES/dead-reckon) predicts positions by dead reckoning and corrects with a snap or blend past a threshold.
+- [rewind-buffer](https://github.com/ANERON-GAMES/rewind-buffer) rewinds entity positions to a past server time so hit checks match what the shooter saw.
+- [spawn-pick](https://github.com/ANERON-GAMES/spawn-pick) scores spawn points by distance from threats and recent use.
+- [jitter-buffer](https://github.com/ANERON-GAMES/jitter-buffer) orders packets by sequence and adapts the playout delay to measured jitter.
 
 Each library has tests. None of them call the network.
 
