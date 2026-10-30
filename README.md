@@ -37,6 +37,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [rewind-buffer](https://github.com/ANERON-GAMES/rewind-buffer) rewinds entity positions to a past server time so hit checks match what the shooter saw.
 - [spawn-pick](https://github.com/ANERON-GAMES/spawn-pick) scores spawn points by distance from threats and recent use.
 - [jitter-buffer](https://github.com/ANERON-GAMES/jitter-buffer) orders packets by sequence and adapts the playout delay to measured jitter.
+- [clock-sync](https://github.com/ANERON-GAMES/clock-sync) estimates client clock offset and round-trip time from timestamped ping samples.
+- [input-replay](https://github.com/ANERON-GAMES/input-replay) queues client inputs until the server acknowledges them and replays the rest for prediction reconciliation.
+- [ready-check](https://github.com/ANERON-GAMES/ready-check) runs a lobby ready check with timeout, decline and quorum rules.
 
 Each library has tests. None of them call the network.
 
