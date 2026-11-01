@@ -40,6 +40,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [clock-sync](https://github.com/ANERON-GAMES/clock-sync) estimates client clock offset and round-trip time from timestamped ping samples.
 - [input-replay](https://github.com/ANERON-GAMES/input-replay) queues client inputs until the server acknowledges them and replays the rest for prediction reconciliation.
 - [ready-check](https://github.com/ANERON-GAMES/ready-check) runs a lobby ready check with timeout, decline and quorum rules.
+- [snapshot-delta](https://github.com/ANERON-GAMES/snapshot-delta) encodes and applies field-level deltas between entity state snapshots.
+- [team-split](https://github.com/ANERON-GAMES/team-split) splits rated players into teams with the smallest rating difference, deterministically.
+- [region-pick](https://github.com/ANERON-GAMES/region-pick) picks a server region from per-player latency samples with fairness and cap rules.
 
 Each library has tests. None of them call the network.
 
