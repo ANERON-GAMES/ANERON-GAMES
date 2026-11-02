@@ -43,6 +43,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [snapshot-delta](https://github.com/ANERON-GAMES/snapshot-delta) encodes and applies field-level deltas between entity state snapshots.
 - [team-split](https://github.com/ANERON-GAMES/team-split) splits rated players into teams with the smallest rating difference, deterministically.
 - [region-pick](https://github.com/ANERON-GAMES/region-pick) picks a server region from per-player latency samples with fairness and cap rules.
+- [update-tier](https://github.com/ANERON-GAMES/update-tier) schedules update rates for networked entities in distance tiers.
+- [vote-kick](https://github.com/ANERON-GAMES/vote-kick) tallies lobby vote-kicks with quorum, threshold and cooldown rules.
+- [packet-budget](https://github.com/ANERON-GAMES/packet-budget) packs entity updates by priority into a per-tick byte budget.
 
 Each library has tests. None of them call the network.
 
