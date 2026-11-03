@@ -46,6 +46,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [update-tier](https://github.com/ANERON-GAMES/update-tier) schedules update rates for networked entities in distance tiers.
 - [vote-kick](https://github.com/ANERON-GAMES/vote-kick) tallies lobby vote-kicks with quorum, threshold and cooldown rules.
 - [packet-budget](https://github.com/ANERON-GAMES/packet-budget) packs entity updates by priority into a per-tick byte budget.
+- [respawn-wave](https://github.com/ANERON-GAMES/respawn-wave) groups dead players into shared respawn waves on a fixed cadence.
+- [item-stack](https://github.com/ANERON-GAMES/item-stack) merges and splits inventory stacks with per-item stack limits.
+- [damage-falloff](https://github.com/ANERON-GAMES/damage-falloff) applies distance-based damage falloff curves with clamped ranges and multipliers.
 
 Each library has tests. None of them call the network.
 
