@@ -52,6 +52,9 @@ The production tree stays private. These repositories are the parts worth reusin
 - [buff-stack](https://github.com/ANERON-GAMES/buff-stack) applies timed status effects with stacking, refresh and expiry rules.
 - [threat-table](https://github.com/ANERON-GAMES/threat-table) accumulates per-target threat with decay and target selection.
 - [xp-curve](https://github.com/ANERON-GAMES/xp-curve) maps experience to levels with progression curves, level caps and lookups.
+- [leash-reset](https://github.com/ANERON-GAMES/leash-reset) resets combat when a target exceeds an encounter's leash range.
+- [armor-mit](https://github.com/ANERON-GAMES/armor-mit) mitigates damage from armor with diminishing returns and a mitigation cap.
+- [cc-diminish](https://github.com/ANERON-GAMES/cc-diminish) shortens repeated crowd-control effects in the same category with diminishing returns.
 
 Each library has tests. None of them call the network.
 
